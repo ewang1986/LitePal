@@ -37,11 +37,8 @@ import android.widget.ProgressBar;
 public class TableListActivity extends Activity {
 
 	private ProgressBar mProgressBar;
-
 	private ListView mTableListview;
-
 	private StringArrayAdapter mAdapter;
-
 	private List<String> mList = new ArrayList<String>();
 
 	public static void actionStart(Context context) {
