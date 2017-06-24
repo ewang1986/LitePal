@@ -21,13 +21,9 @@ import org.litepal.crud.DataSupport;
 public class Song extends DataSupport {
 
 	private long id;
-
 	private String name;
-
 	private String lyric;
-
 	private String duration;
-
 	private Album album;
 
 	public long getId() {
