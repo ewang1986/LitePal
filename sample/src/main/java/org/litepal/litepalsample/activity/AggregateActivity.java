@@ -29,13 +29,9 @@ import android.widget.Button;
 public class AggregateActivity extends Activity implements OnClickListener {
 
 	private Button mCountSampleBtn;
-
 	private Button mMaxSampleBtn;
-
 	private Button mMinSampleBtn;
-
 	private Button mAverageSampleBtn;
-	
 	private Button mSumSampleBtn;
 
 	public static void actionStart(Context context) {
