@@ -37,8 +37,7 @@ public class BaseUtility {
 	/**
 	 * Disable to create an instance of BaseUtility.
 	 */
-	private BaseUtility() {
-	}
+	private BaseUtility() {}
 
 	/**
 	 * It will change the case of the passing parameter into the case defined in
