@@ -25,13 +25,9 @@ import org.litepal.crud.DataSupport;
 public class Singer extends DataSupport {
 
 	private long id;
-
 	private String name;
-
 	private int age;
-
 	private boolean isMale;
-
 	private List<Album> albums = new ArrayList<Album>();
 
 	public long getId() {

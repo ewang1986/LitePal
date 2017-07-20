@@ -33,11 +33,8 @@ import android.widget.TextView;
 public class MaxSampleActivity extends Activity implements OnClickListener {
 
 	private Button mMaxBtn1;
-
 	private Button mMaxBtn2;
-
 	private EditText mAgeEdit;
-
 	private TextView mResultText;
 
 	public static void actionStart(Context context) {

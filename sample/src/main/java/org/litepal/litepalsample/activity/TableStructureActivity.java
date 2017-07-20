@@ -40,13 +40,9 @@ import android.widget.TextView;
 public class TableStructureActivity extends Activity {
 
 	public static final String TABLE_NAME = "table_name";
-
 	private ListView mTableStructureListView;
-
 	private ArrayAdapter<ColumnModel> mAdapter;
-
 	private String mTableName;
-
 	private List<ColumnModel> mList = new ArrayList<ColumnModel>();
 
 	public static void actionStart(Context context, String tableName) {
